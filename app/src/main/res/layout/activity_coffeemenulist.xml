@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/simplebackgroundcolor2"
+    tools:context=".CoffeeMenuActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="405dp"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:text="Coffee Menu"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/backmenu"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="330dp"
+            android:layout_marginBottom="200dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/baseline_arrow_back_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView202"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/listamericano"
+            android:layout_width="104dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/americano" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Cafe Americano"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menuamericano"
+            android:layout_width="240dp"
+            android:layout_height="30dp"
+            android:text="A Café Americano is espresso diluted with hot water for a smooth, bold taste."
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="166dp"
+            android:layout_marginLeft="103dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView208"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView210"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="240dp"
+            android:text="Cafe Matcha"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menumatcha"
+            android:layout_width="240dp"
+            android:layout_height="43dp"
+            android:text="A Café Matcha is a creamy blend of matcha green tea and milk, offering a smooth and earthy flavor."
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/listmatcha"
+            android:layout_width="104dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/matcha" />
+
+        <TextView
+            android:id="@+id/textView209"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/listmocha"
+            android:layout_width="70dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="330dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/mocha" />
+
+        <TextView
+            android:id="@+id/menulist_mocha"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Cafe Mocha"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="340dp"
+            android:layout_marginLeft="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menumocha"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:text="A Café Mocha is a rich blend of espresso, steamed milk, and chocolate syrup, topped with whipped cream."
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="363dp"
+            android:layout_marginLeft="110dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView207"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="430dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/listpb"
+            android:layout_width="104dp"
+            android:layout_height="77dp"
+            android:layout_marginRight="250dp"
+            android:layout_marginTop="430dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cafeplainblck" />
+
+        <TextView
+            android:id="@+id/plainbalck_list"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Cafe Plain Black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="440dp"
+            android:layout_marginLeft="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menuplainblck"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:text="A Café Plain Black is a simple, bold espresso served without milk or sugar."
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="465dp"
+            android:layout_marginLeft="115dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="530dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView204"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:text="Cafe Cappucino"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="540dp"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/menucappuccino"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:text="A Café Cappuccino is a coffee made with equal parts espresso, steamed milk, and frothed milk, creating a creamy, balanced flavor."
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="565dp"
+            android:layout_marginLeft="110dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView175"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="630dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/caramelmac"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="630dp"
+            android:layout_marginRight="260dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/caramocha" />
+
+        <TextView
+            android:id="@+id/menulist_caramel"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="640dp"
+            android:text="Cafe Caramel Macchiato"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menucaramac"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:text="A Café Caramel Macchiato is a sweet espresso-based drink with steamed milk, vanilla syrup, and a drizzle of caramel."
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="665dp"
+            android:layout_marginLeft="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="730dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iamge_latte"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/espresso"
+            android:layout_marginTop="735dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menulist_espresso"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="Cafe Espresso"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="740dp"
+            android:layout_marginLeft="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menuespresso"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:text="A Café Espresso is a strong, concentrated coffee made by forcing hot water through finely ground coffee beans."
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="765dp"
+            android:layout_marginLeft="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="830dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menulist_latte"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="Cafe Latte"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="843dp"
+            android:layout_marginLeft="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menulatte"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:text="A Café Latte is a smooth coffee made with espresso and steamed milk, topped with a light layer of foam."
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="865dp"
+            android:layout_marginLeft="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/image_latte"
+            android:layout_width="104dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="830dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cafelatte" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="930dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menuhazelnut"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:text="A Café Hazelnut is a coffee flavored with sweet hazelnut syrup, often paired with steamed milk for a creamy, nutty taste."
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="965dp"
+            android:layout_marginLeft="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menulist_hazel"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:text="Cafe Hazelnut"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="940dp"
+            android:layout_marginLeft="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/image_hazel"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="935dp"
+            android:layout_marginRight="290dp"
+            android:src="@drawable/hazel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="1030dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menuchoco"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:text="Cafe chocolate blends rich coffee with smooth, velvety cocoa for a sweet, indulgent treat."
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="1065dp"
+            android:layout_marginLeft="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menulist_choco"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:text="Cafe Chocolate"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="1043dp"
+            android:layout_marginLeft="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iamge_choco"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="1030dp"
+            android:layout_marginRight="250dp"
+            android:src="@drawable/chocolate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/listcappuccino"
+            android:layout_width="60dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="535dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cappuccino" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

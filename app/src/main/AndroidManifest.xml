@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Serenitea"
+        tools:targetApi="31">
+        <activity
+            android:name=".CompletedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OutfordeliveryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PreparingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomespaghettiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeicedmatchaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Homeplainblack"
+            android:exported="false" />
+        <activity
+            android:name=".HomelatteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Homemocha"
+            android:exported="false" />
+        <activity
+            android:name=".HomelasagnaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomepastaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IcedcappActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MatchahomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CheckoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyCartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CafecappuccinoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IcedvietnameseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IcedcoffeemenulistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FoodmenulistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CinnamorollActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CoffeeMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VerificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ToastedbreadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SpaghettiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LasagnaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IcedlatteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IcedplainblackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IcedhazelnutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IcedmatchaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IcedChocolateActivity"
+            android:exported="false"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name=".IcedCaramelSwirlActivity"
+            android:exported="false"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name=".IcedcaramelmacchiatoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IcedcappuccinoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IcedamericanoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FrenchfriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EnsaymadaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CroissantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreamypastaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CafeplainblackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CafemochaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CafematchaActivity"
+            android:exported="false" />
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".CafelatteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CafehazelnutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CafeespressoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CafechocolateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CafecaramelmacchiatoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CafeaamericanoActivity"
+            android:exported="false"
+            tools:ignore="Instantiatable,MissingClass" />
+        <activity
+            android:name=".BurgerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BlueberryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".ForgotpasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NewPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TermAndConActivity"
+            android:exported="false"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="SereniTea">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/simplebackgroundcolor2"
+    tools:context=".FoodmenulistActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="405dp"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:text="Food Menu"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/backmenufood"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="330dp"
+            android:layout_marginBottom="200dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/baseline_arrow_back_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView202"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/list_burger"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="Burger"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginRight="95dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menuburger"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:text="A burger usually includes a patty, bun, and toppings like lettuce, tomato, cheese, pickles, onions, and condiments."
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="166dp"
+            android:layout_marginLeft="103dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView208"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/list_fries"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="240dp"
+            android:text="French Fries"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menufries"
+            android:layout_width="240dp"
+            android:layout_height="43dp"
+            android:text="Creamy pasta is made with a rich sauce, typically consisting of cream, butter, and cheese, tossed with pasta for a smooth, indulgent dish."
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView209"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/list_creamy"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Creamy Pasta"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="340dp"
+            android:layout_marginLeft="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menupasta"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:text="Creamy pasta is made with a rich sauce, typically consisting of cream, butter, and cheese, tossed with pasta for a smooth, indulgent dish."
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="363dp"
+            android:layout_marginLeft="110dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView207"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="430dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/list_lasagna"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Lasagna"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="440dp"
+            android:layout_marginLeft="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menulasagna"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:text="Lasagna is a baked dish with layers of pasta, meat, cheese, and tomato sauce."
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="465dp"
+            android:layout_marginLeft="115dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="530dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/list_ensaymada"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:text="Ensaymada"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="540dp"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menuensaymada"
+            android:layout_width="240dp"
+            android:layout_height="39dp"
+            android:text="Ensaymada is a soft, sweet Filipino pastry, typically topped with butter, sugar, and grated cheese.."
+            android:textSize="11sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="565dp"
+            android:layout_marginLeft="110dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView175"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="630dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/list_toastedbread"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="640dp"
+            android:textColor="@color/black"
+            android:text="Toasted Bread with Butter"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menutoasted"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:text="Toasted bread with butter is simply bread toasted until crispy, then spread with a layer of melted butter."
+            android:textSize="11sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="665dp"
+            android:layout_marginLeft="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="730dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/list_spaghetti"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="Spaghetti"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="740dp"
+            android:layout_marginLeft="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menuspaghetti"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:text="Spaghetti is a long, thin pasta often served with marinara sauce, meatballs, or other savory toppings."
+            android:textSize="11sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="765dp"
+            android:layout_marginLeft="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="830dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/list_cinnamoroll"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="Cinamoroll"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="843dp"
+            android:layout_marginLeft="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menucinnamo"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:text="Cinnamoroll food typically includes sweet pastries, especially cinnamon rolls, often with a cute, fluffy design inspired by the character."
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="865dp"
+            android:layout_marginLeft="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="930dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menublueberry"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:text="Blueberry cheesecake is a creamy cheesecake topped with sweet blueberry compote."
+            android:textSize="11sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="965dp"
+            android:layout_marginLeft="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/list_blueberry"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:text="Blueberry Cheesecake"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="940dp"
+            android:layout_marginLeft="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="1030dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menucroissant"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:text="A croissant is a buttery, flaky, and golden pastry, typically shaped into a crescent."
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="1065dp"
+            android:layout_marginLeft="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/list_croissant"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:text="Croissant"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="1043dp"
+            android:layout_marginLeft="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/image_burger"
+            android:layout_width="70dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/burger" />
+
+        <ImageView
+            android:id="@+id/image_fries"
+            android:layout_width="64dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="235dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/fries" />
+
+        <ImageView
+            android:id="@+id/image_creamy"
+            android:layout_width="70dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="330dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pasta" />
+
+        <ImageView
+            android:id="@+id/image_lasagna"
+            android:layout_width="104dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="430dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/llasagna" />
+
+        <ImageView
+            android:id="@+id/image_ensaymada"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="540dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ensaymada" />
+
+        <ImageView
+            android:id="@+id/image_toastedbread"
+            android:layout_width="60dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="630dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/toasted" />
+
+        <ImageView
+            android:id="@+id/iamge_spaghetti"
+            android:layout_width="70dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="730dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/spagehetti" />
+
+        <ImageView
+            android:id="@+id/image_cinnamoroll"
+            android:layout_width="70dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="840dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cinnamorolls" />
+
+        <ImageView
+            android:id="@+id/image_croissant"
+            android:layout_width="70dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="1030dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/croissant" />
+
+        <ImageView
+            android:id="@+id/image_blueberry"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="930dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bbb" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

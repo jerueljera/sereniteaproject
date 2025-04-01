@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/simplebackgroundcolor2"
+    tools:context=".IcedcoffeemenulistActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="405dp"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:text="Iced Coffee Menu"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/backmenuicedcoffee"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="330dp"
+            android:layout_marginBottom="200dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/baseline_arrow_back_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView202"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menulist_icedamericano"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="140dp"
+            android:text="Iced Americano"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menuiicedamericano"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:text="An iced Americano is a refreshing coffee drink made by diluting espresso with cold water and ice, offering a smooth and bold flavor."
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="166dp"
+            android:layout_marginLeft="103dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView208"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menulist_icedcapp"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="240dp"
+            android:text="Iced Cappuccino"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menuicedcap"
+            android:layout_width="240dp"
+            android:layout_height="43dp"
+            android:text="An iced cappuccino is espresso, cold milk, and foam served over ice for a creamy, refreshing drink."
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView209"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/list_caramelmac"
+            android:layout_width="190dp"
+            android:layout_height="30dp"
+            android:text="Iced Caramel Macchiato"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="340dp"
+            android:layout_marginLeft="70dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menucaramac"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:text="An iced caramel macchiato is espresso, cold milk, vanilla syrup, and caramel, served over ice."
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="363dp"
+            android:layout_marginLeft="110dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView207"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="430dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/list_swirl"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Iced Caramel Swirl"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="440dp"
+            android:layout_marginLeft="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menucaraswirl"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:text="An iced caramel swirl is espresso, milk, and caramel syrup served over ice."
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="465dp"
+            android:layout_marginLeft="115dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="530dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/listicedchoco"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:text="Iced Chocolate"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="540dp"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/menuchocolate"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:text="Iced chocolate is a cold, refreshing drink made with chocolate syrup, milk, and ice."
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="565dp"
+            android:layout_marginLeft="110dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView175"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="630dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/list_hazelnut"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="640dp"
+            android:text="Iced Hazelnut"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menuicedchazelnut"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:text=" Iced hazelnut is a chilled coffee drink made with espresso, milk, and hazelnut syrup, served over ice."
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="665dp"
+            android:layout_marginLeft="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="730dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/list_icedlate"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="Iced Latte"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="740dp"
+            android:layout_marginLeft="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menueicedlatte"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:text="An iced latte is espresso mixed with cold milk and served over ice."
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="765dp"
+            android:layout_marginLeft="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="830dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/list_icedmatcha"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="Iced Matcha"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="843dp"
+            android:layout_marginLeft="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menumatcha"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:text="Iced matcha is a refreshing drink made with matcha powder, milk, and ice."
+            android:textSize="11sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="865dp"
+            android:layout_marginLeft="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="930dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menuplainb1"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:text="Iced plain black is brewed coffee served chilled over ice, without any additives."
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="965dp"
+            android:layout_marginLeft="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/list_plainb"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:text="Iced Plain black"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="940dp"
+            android:layout_marginLeft="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="1030dp"
+            android:background="@drawable/custom_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/menuicedviet"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:text="Iced Vietnamese coffee is strong coffee with condensed milk over ice."
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="1065dp"
+            android:layout_marginLeft="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/list_icedviet"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="1043dp"
+            android:text="Iced Vietnamese"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/image_americano"
+            android:layout_width="104dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/soda_refreshment_on_transparent_background_png" />
+
+        <ImageView
+            android:id="@+id/image_icedcapp"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="238dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icedcappuccino" />
+
+        <ImageView
+            android:id="@+id/menulist_mac"
+            android:layout_width="70dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/iced_caramel_macchiato" />
+
+        <ImageView
+            android:layout_width="104dp"
+            android:layout_height="77dp"
+            android:layout_marginRight="250dp"
+            android:layout_marginTop="430dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icedswirl" />
+
+        <ImageView
+            android:id="@+id/image_icedchoco"
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="508dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icedchoco" />
+
+        <ImageView
+            android:id="@+id/image_icedhazel"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="635dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icedhazel" />
+
+        <ImageView
+            android:id="@+id/image_icedlatte"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="735dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icedlatte" />
+
+        <ImageView
+            android:id="@+id/image_swirl"
+            android:layout_width="104dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="430dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/image_matcha"
+            android:layout_width="104dp"
+            android:layout_height="77dp"
+            android:clickable="true"
+            android:layout_marginTop="830dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icedmatcha" />
+
+        <ImageView
+            android:id="@+id/image_plainb"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="935dp"
+            android:layout_marginRight="255dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icedplainblck" />
+
+        <ImageView
+            android:id="@+id/image_viet"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="1035dp"
+            android:layout_marginRight="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/vietnamese" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
